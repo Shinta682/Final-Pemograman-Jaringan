@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	box-sizing: border-box;
+}
+*{
+	text-decoration: none; /*artinya semua yg garis bawah hilang */
+}
+.page-login{
+	width: 100%;
+	height: 100vh;
+	background-color:#2E8BC0 ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box{
+	border: 1px solid #ddd;
+	background-color: white;
+}
+.box-header{
+	padding: 16px;
+	border-bottom: 1px solid #ddd;
+	background-color: #f2f2f2;
+}
+
+.box-body{
+	padding: 16px;
+}
+
+.box-footer{
+	padding: 16px;
+	border-top: 1px solid #ddd;
+	background-color: #f2f2f2 ;
+}
+.form{
+	margin: 15px 0;
+
+}
+
+.form-group{
+	margin-bottom: 15px;
+
+
+}
+.form-group label{
+	display: block;
+	margin-bottom: 8px;
+
+}
+
+.form-group .input-control{
+	padding: 8px 16px;
+	width: 100%;
+	font-size: 16px;
+	border: 1px solid #ddd;
+}
+.box-login{
+	width: 300px;
+}
+
+.btn{
+	border: 1px solid #ddd;
+	padding: 10px 16px;
+	font-size: 16px;
+}
+
+.btn:hover{
+	cursor: pointer;
+}
+
+.btn-blue{
+	background-color: #2E8BC0;
+	color: #fff;
+	border: 1px solid #2E8BC0;
+}
+
+.btn-blue:hover {
+	background-color: #145DA0;
+}
+.text-center{
+	text-align: center !important;
+}
+.float-left{
+	float:left;
+}
+.container{
+	width: 	1140px;
+	margin: 0 auto;
+}
+
+.bg-ligt{
+	background-color: #fefefe;
+}
+
+.clearfix{
+	clear: 	both;
+}
+.alert {
+	padding: 10px 16px;
+	border: 1px solid;
+}
+
+
+.alert-error {
+	background-color: #FABEC0;
+	border: 1px solid #E43D40;
+	color: #E43D46;
+	margin: 20px 0px;
+}
+
+.alert-success {
+	background-color: #A3EBB1;
+	border: 1px solid #116530;
+	color: #116530;
+	margin: 20px 0px;
+}
+
+
+.navbar{
+	height : 60px;
+	width: 	100%;
+	background-color: #41729F;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
+
+.navbar	a{
+	color: #fff;
+}
+
+.nav-brand{
+	display: inline-block;
+	padding: 15px 0;
+	margin-right: 16px;
+
+}
+
+.nav-menu{
+	display: flex;
+	list-style: none;
+
+}
+
+.nav-menu li a{
+	padding: 20px;
+	display: inline-block;
+}
+
+.nav-menu li:hover{
+	background-color: #274472;
+}
+
+.nav-menu li .dropdown	{
+	border: 1px solid #ddd;
+	background-color: #fff;
+	list-style: none;
+	position: absolute;
+	display: none;
+}
+
+.nav-menu li .dropdown a{
+	color: #333;
+}
+
+.nav-menu li .dropdown li:hover a{
+	color: #fff;
+}
+
+.nav-menu li:hover	.dropdown{
+	display: block;
+}
+
+.content{
+	padding: 80px 0 30px 0;
+}
+
+.footer{
+	padding: 20px 0;
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+	margin: 8px 0px;
+}
+
+.table th,
+.table td{
+	border: 1px solid #dddd;
+	padding: 10px;
+}
+
+.table td:first-child{
+	width: 50px;
+	text-align: center;
+}
+
+.table td:last-child{
+	width: 130px;
+	text-align: center;
+}
+
+.text-red{
+	color: #E43D40;
+}
+
+.text-orange{
+	color: #FF8300;
+}
+
+.text-green{
+	color: #18A55B;
+}
+
+
+.input-group:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.input-group input[type="text"]{
+	width: 90%;
+	padding: 10px;
+	font-size: 16px;
+	float: left;
+	border:  1px solid #ddd;
+}
+
+.input-group input[type="text"]:focus {
+	outline: none;
+}
+
+.input-group button{
+	width: 10%;
+	padding: 10px;
+	font-size: 16px;
+	float: left;
+	border:  1px solid #ddd;
+	border-left: none;
+}
